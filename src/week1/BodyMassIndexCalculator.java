@@ -15,6 +15,7 @@ public class BodyMassIndexCalculator
         weight = inp.nextDouble();
 
         double bodyMassIndex = weight / (height * height);
+
         System.out.println("Body mass index: " + bodyMassIndex);
     }
 }

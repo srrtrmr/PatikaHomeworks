@@ -8,7 +8,7 @@ public class GroceryCashier
     {
         double pearWeight, appleWeight, tomatoesWeight, bananaWeight, eggplantWeight;
 
-        double pearPrice = 2.14 , applePrice = 3.67, tomatoesPrice = 1.11, bananaPrice = 0.95, eggplantPrice = 5.00;
+        final double pearPrice = 2.14 , applePrice = 3.67, tomatoesPrice = 1.11, bananaPrice = 0.95, eggplantPrice = 5.00;
 
         Scanner inp = new Scanner(System.in);
         System.out.println("Pear(kg): ");

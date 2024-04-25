@@ -13,21 +13,21 @@ public class HackerRankJavaDatatypes
         {
             try
             {
-                long x = inp.nextLong();
+                long value = inp.nextLong();
 
-                System.out.println(x + " can be fitted in:");
+                System.out.println(value + " can be fitted in:");
 
-                if(x >= Byte.MIN_VALUE && x <= Byte.MAX_VALUE)
+                if(value >= Byte.MIN_VALUE && value <= Byte.MAX_VALUE)
                 {
                     System.out.println("* byte");
                 }
 
-                if(x >= Short.MIN_VALUE && x <= Short.MAX_VALUE)
+                if(value >= Short.MIN_VALUE && value <= Short.MAX_VALUE)
                 {
                     System.out.println("* short");
                 }
 
-                if(x >= Integer.MIN_VALUE && x <= Integer.MAX_VALUE)
+                if(value >= Integer.MIN_VALUE && value <= Integer.MAX_VALUE)
                 {
                     System.out.println("* int");
                 }

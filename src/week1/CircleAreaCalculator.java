@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class CircleAreaCalculator
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         double radius, alpha;
 
         Scanner inp = new Scanner(System.in);

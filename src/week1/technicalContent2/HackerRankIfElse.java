@@ -10,15 +10,15 @@ public class HackerRankIfElse
 
         Scanner inp = new Scanner(System.in);
 
-        System.out.println("Enter a number");
+        System.out.print("Enter a number: ");
         number = inp.nextInt();
 
-        if (number%2 != 0 )
+        if (number % 2 != 0 )
         {
             System.out.println("Weird");
         }
 
-        if (number%2 == 0 ) {
+        if (number % 2 == 0 ) {
             if (number >= 2 && number <= 5)
             {
                 System.out.println("Not Weird");

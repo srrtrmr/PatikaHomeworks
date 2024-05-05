@@ -15,7 +15,7 @@ public class SortArray
 
         for (int i = 0; i < count; i++)
         {
-            System.out.print("Enter " + (i + 1) + " Number: ");
+            System.out.print("Enter " + (i + 1) + ". Number: ");
             int number = inp.nextInt();
 
             numbers[i] = number;

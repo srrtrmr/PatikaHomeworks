@@ -61,22 +61,22 @@ public class Employee
         return 0;
     }
 
-    public void printInfo()
+    public String toString()
     {
         double tax = this.tax();
         double bonus = this.bonus();
         double raiseSalary = this.raiseSalary();
 
-        System.out.println("=========================");
-        System.out.println("Name : " + this.name);
-        System.out.println("Salary : " + this.salary);
-        System.out.println("Work Hours : " + this.worksHours);
-        System.out.println("Hire Year : " + this.hireYear);
-        System.out.println("Tax : " + tax);
-        System.out.println("Bonus: " + bonus);
-        System.out.println("Raise Salary: " + raiseSalary);
-        System.out.println("Salary With Tax And Bonus: " + (this.salary + bonus + tax));
-        System.out.println("Total Salary: " + (this.salary + bonus + tax + raiseSalary));
-        System.out.println("=========================");
+        return "=========================" +
+                "\nName : " + this.name +
+                "\nSalary : " + this.salary +
+                "\nWork Hours : " + this.worksHours +
+                "\nHire Year : " + this.hireYear +
+                "\nTax : " + tax +
+                "\nBonus: " + bonus +
+                "\nRaise Salary: " + raiseSalary +
+                "\nSalary With Tax And Bonus: " + (this.salary + bonus + tax) +
+                "\nTotal Salary: " + (this.salary + bonus + tax + raiseSalary) +
+                "\n=========================";
     }
 }

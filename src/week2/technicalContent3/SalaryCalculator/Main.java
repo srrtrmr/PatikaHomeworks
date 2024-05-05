@@ -7,7 +7,7 @@ public class Main
         Employee selin = new Employee("Selin", 900, 45, 1986);
         Employee umutcan = new Employee("Umutcan", 2000, 45, 1985);
 
-        selin.printInfo();
-        umutcan.printInfo();
+        System.out.println(selin.toString());
+        System.out.println(umutcan.toString());
     }
 }
